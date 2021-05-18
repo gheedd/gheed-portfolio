@@ -49,6 +49,20 @@ section {
   align-items: center;
 }
 
+.heading {
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  color: $quiet-color;
+  margin-bottom: 3em;
+}
+
 #navbar {
   background-color: #fff;
   position: fixed;
@@ -95,20 +109,6 @@ section {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-
-    h1.heading {
-      color: #fff;
-      font-size: 2.5em;
-      margin-bottom: 0.2em;
-    }
-
-    .subheading {
-      text-transform: uppercase;
-      font-weight: bold;
-      letter-spacing: 0.3em;
-      color: $quiet-color;
-      margin-bottom: 3em;
-    }
 
     .primary-cta {
       border: 2px solid $secondary-color;
@@ -168,10 +168,11 @@ section {
       color: #fff;
       font-size: 1.8em;
       margin-top: 0;
-      margin-bottom: 2em;
+      margin-bottom: 0.5em;
     }
 
     ul {
+      margin-top: 2em;
       li {
         display: flex;
         flex-direction: column;
