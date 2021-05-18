@@ -175,7 +175,7 @@ section {
       li {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         background-color: $dark-color;
         color: $quiet-color;
         text-align: center;
@@ -189,7 +189,7 @@ section {
         img,
         iframe {
           width: 100%;
-          height: 80%;
+          height: 100%;
           border-radius: 0.5em 0.5em 0 0;
           object-fit: cover;
         }
@@ -197,6 +197,7 @@ section {
         p {
           padding: 2rem;
           line-height: 1.5;
+          font-size: 1.2em;
         }
 
         iframe {
